@@ -5,7 +5,7 @@ import pickle
 import joblib
 
 # Load the trained model
-model = joblib.load('model_joblib.pkl') # Changed model filename and loading method
+model = joblib.load('linear_tegression_model.pkl') # Changed model filename and loading method
 
 # Streamlit app title
 st.title('Prediksi Tagihan Listrik Jakarta')
